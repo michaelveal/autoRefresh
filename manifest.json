@@ -4,19 +4,19 @@
     "version": "1.0",
     "description": "Auto-refresh the current page based on user-selected rate.",
     "permissions": [
-      "activeTab", // Permission to access the active tab in the browser
-      "storage" // Permission to use Chrome's storage API
+      "activeTab",
+      "storage"
     ],
     "action": {
-      "default_popup": "popup.html", // The HTML file for the popup interface
+      "default_popup": "popup.html",
       "default_icon": {
-        "16": "icon.png", // Icon for the extension (16x16 pixels)
-        "48": "icon.png", // Icon for the extension (48x48 pixels)
-        "128": "icon.png" // Icon for the extension (128x128 pixels)
+        "16": "icon.png", 
+        "48": "icon.png", 
+        "128": "icon.png" 
       }
     },
     "background": {
-      "service_worker": "background.js" // Background script that runs in the background
+      "service_worker": "background.js"
     },
     "icons": {
       "16": "icon.png",
